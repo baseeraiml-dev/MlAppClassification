@@ -147,6 +147,17 @@ uploaded_file = st.sidebar.file_uploader(
         "evaluation metrics. A sample file is in the model/ directory."
     )
 )
+# Download sample test data
+test_data_path = os.path.join(os.path.dirname(__file__), 'model', 'test_data.csv')
+if os.path.exists(test_data_path):
+    with open(test_data_path, 'rb') as f:
+        st.sidebar.download_button(
+            label="⬇️ Download Sample Test CSV",
+            data=f,
+            file_name="test_data.csv",
+            mime="text/csv",
+            help="Download the sample test_data.csv to try the upload feature"
+        )
 
 st.sidebar.markdown("---")
 st.sidebar.info(
