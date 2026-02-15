@@ -97,7 +97,7 @@ MlAppClassification/
 ### 1. Clone the repository
 ```bash
 git clone <https://github.com/baseeraiml-dev/MlAppClassification>
-cd ml-classification-app
+cd MlAppclassification
 ```
 
 ### 2. Install dependencies
