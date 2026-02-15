@@ -1,6 +1,12 @@
 
 """"
-ML Assignment 2 2025AA05593
+ML Assignment 2 2025AA05593 
+
+Streamlit Web Application - ML Classification Dashboard
+====================================================================
+Dataset : Adult Census Income (UCI ML repo)
+Task : Binary classification (Income >50K or <=50k)
+Models : Logistic Regression, Decision Tree, KNN, Naive Bayes, Random Forest, XGBoost
 """
 import streamlit as st
 import pandas as pd

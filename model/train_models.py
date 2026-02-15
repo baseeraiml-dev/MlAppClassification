@@ -3,6 +3,10 @@ Training for classification Models
 ===============================================
 Dataset : Adult Census Income (UCL ML Repo)
 URL : https://archive.ics.uci.edu/datasets/2/adult
+
+Features: 14(6numerical, 8 categorical)
+Instances: ~30,162(after cleaning)
+Task Binary Classification (Income >50k or <=50k)
 """
 
 import pandas as pd
