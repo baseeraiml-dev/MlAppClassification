@@ -132,7 +132,7 @@ streamlit run app.py
 
 Deployed on **Streamlit Community Cloud**.
 
-**Live App Link:** _[Placeholder_Baseer]]_
+**Live App Link:** https://mlappclassification-kcht6etxwpn3xh7dwtydxx.streamlit.app/
 
 **GitHub Repository:** https://github.com/baseeraiml-dev/MlAppClassification
 
