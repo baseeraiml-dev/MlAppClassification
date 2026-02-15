@@ -78,7 +78,7 @@ Six classification models were implemented and evaluated on the same dataset:
 ## Project Structure
 
 ```
-ml-classification-app/
+MlAppClassification/
 │── app.py                          # Streamlit web application
 │── requirements.txt                # Python dependencies
 │── README.md                       # Project documentation
@@ -123,6 +123,7 @@ streamlit run app.py
 - **Visual Charts**: Bar charts comparing each metric across models
 - **Model Details**: Detailed view with confusion matrix and classification report for the selected model
 - **CSV Upload**: Upload test data to get predictions and evaluation metrics
+- **CSV Download**: Download test data that allows user to download sample test data
 - **Model Selection**: Dropdown to switch between all 6 trained models
 - **Dataset Info**: Complete dataset description and feature statistics
 
